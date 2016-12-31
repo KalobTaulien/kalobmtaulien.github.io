@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Kalob Taulien -- Creator/Owner -- @KalobTaulien
+
+# THANKS
+
+    Internet. For enabling the futre. 
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+    SASS, CSS, Gulp, NPM, Node
+
+Origin
