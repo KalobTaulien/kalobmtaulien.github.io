@@ -1,16 +1,19 @@
 {
-  "links": {
-	"twitter": {
-		"icon": "fa fa-twitter",
-		"text": "@KalobTaulien"
-	},
-	"linkedin": {
-		"icon": "fa fa-linkedin",
-		"text": "Kalob Taulien",
-	},
-	"blog": {
-		"icon": "fa fa-book",
-		"text": "Blog"
-	}
-  }
+  	"links": {
+		"twitter": {
+			"icon": "fa fa-twitter",
+			"text": "@KalobTaulien",
+			"url": "https://twitter.com/KalobTaulien"
+		},
+		"linkedin": {
+			"icon": "fa fa-linkedin",
+			"text": "Kalob Taulien",
+			"url": "https://linkedin.com/in/kalobtaulien"
+		},
+		"blog": {
+			"icon": "fa fa-book",
+			"text": "Blog",
+			"url": "/blog"
+		}
+  	}
 }
