@@ -11,11 +11,6 @@
 				"twitterUrl": "https://twitter.com/KalobTaulien",
 				"name": "Kalob Taulien"
 			}
-		},
-		"My first sample post": {
-			"title": "Title in here",
-			"subtitle": "Subtitle can go here",
-			"url": "/blog/2"
 		}
   	}
 }
