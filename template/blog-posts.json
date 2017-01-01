@@ -1,0 +1,14 @@
+{
+  	"posts": {
+		"My latest post": {
+			"title": "Title in here",
+			"subtitle": "Subtitle can go here",
+			"url": "/blog/1"
+		},
+		"My first sample post": {
+			"title": "Title in here",
+			"subtitle": "Subtitle can go here",
+			"url": "/blog/2"
+		}
+  	}
+}
