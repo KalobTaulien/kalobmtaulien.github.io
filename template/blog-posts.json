@@ -1,9 +1,21 @@
 {
   	"posts": {
+		"What are employers looking for in a developer?": {
+			"title": "What are employers looking for in a developer?",
+			"subtitle": "I went to a dozen interviews for web development jobs, and this is what I learned.",
+			"url": "https://medium.com/operation-code/what-are-employers-looking-for-in-a-developer-95df809a57a4",
+			"datePublished": "06 Oct 2016",
+			"category": "Education",
+			"keywords": "education, elearning, internet, humanity",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
+		},
 		"The Importance Of Education": {
 			"title": "The Importance Of Education",
 			"subtitle": "Education Is More Important Than Most People Realize",
-			"url": "/blog/the-importance-of-education/",
+			"url": "/blog/the-importance-of-education.html",
 			"datePublished": "21 Mar 2016",
 			"category": "Education",
 			"keywords": "education, elearning, internet, humanity",
@@ -15,7 +27,7 @@
 		"Why You Should Charge Your Customers": {
 			"title": "Why You Should Charge Your Customers",
 			"subtitle": "And Why a Free Service Isn't Always the Best Idea",
-			"url": "/blog/why-you-should-charge-your-customers/",
+			"url": "/blog/why-you-should-charge-your-customers.html",
 			"datePublished": "29 Jun 2015",
 			"category": "Entrepreneurship",
 			"keywords": "entrepreneurship, customers, charging, money",
@@ -27,7 +39,7 @@
 		"Lessons Learned From Startups": {
 			"title": "Lessons Learned From Startups",
 			"subtitle": "What I've Learned From At a New Startup And What the Founders Have Taught Me.",
-			"url": "/blog/lessons-learned-from-startups/",
+			"url": "/blog/lessons-learned-from-startups.html",
 			"datePublished": "15 May 2015",
 			"category": "Business",
 			"keywords": "business, partnership, founders, learning lessons",
@@ -39,7 +51,7 @@
 		"Adapting to New Roles": {
 			"title": "Adapting to New Roles",
 			"subtitle": "Mistakes And Adaptation",
-			"url": "/blog/adapting-to-new-roles/",
+			"url": "/blog/adapting-to-new-roles.html",
 			"datePublished": "10 May 2015",
 			"category": "Entrepreneurship",
 			"keywords": "",
@@ -51,7 +63,7 @@
 		"Multilingual Characters In PHP And MySQL": {
 			"title": "Multilingual Characters In PHP And MySQL",
 			"subtitle": "How to Store And Retrieve Foreign Letters.",
-			"url": "/blog/multilingual-characters-in-php-and-mysql/",
+			"url": "/blog/multilingual-characters-in-php-and-mysql.html",
 			"datePublished": "17 Apr 2015",
 			"category": "PHP",
 			"keywords": "php, multilang, mysql, characters",
@@ -63,7 +75,7 @@
 		"Can't Stop Apache Process": {
 			"title": "Can't Stop Apache Process",
 			"subtitle": "Restarting Web Server Apache2 [fail]. Please Review the Situation By Hand.",
-			"url": "/blog/cant-stop-apache-process/",
+			"url": "/blog/cant-stop-apache-process.html",
 			"datePublished": "16 Apr 2015",
 			"category": "Ubuntu",
 			"keywords": "ubuntu, apache, processes, stop",
@@ -75,7 +87,7 @@
 		"Learning The Hard Way": {
 			"title": "Learning The Hard Way",
 			"subtitle": "It's the Struggle That Makes You Great.",
-			"url": "/blog/learning-the-hard-way/",
+			"url": "/blog/learning-the-hard-way.html",
 			"datePublished": "25 Feb 2015",
 			"category": "Entrepreneurship",
 			"keywords": "entrepreneurship, learning, lessons, moving forward",
