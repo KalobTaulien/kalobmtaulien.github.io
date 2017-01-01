@@ -1,9 +1,9 @@
 {
   "links": {
-    "Timeline2": "/timeline",
+    "Timeline": "/timeline",
     "Startups": "/startups",
     "Education": "/education",
     "About Me": "/about",
-    "Blog": "<strong>Blog</strong>"
+    "<strong>Blog</strong>": "/blog"
   }
 }

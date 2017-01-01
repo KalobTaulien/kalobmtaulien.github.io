@@ -1,0 +1,16 @@
+{
+  "links": {
+	"twitter": {
+		"icon": "fa fa-twitter",
+		"text": "@KalobTaulien"
+	},
+	"linkedin": {
+		"icon": "fa fa-linkedin",
+		"text": "Kalob Taulien",
+	},
+	"blog": {
+		"icon": "fa fa-book",
+		"text": "Blog"
+	}
+  }
+}
