@@ -1,9 +1,16 @@
 {
   	"posts": {
-		"My latest post": {
-			"title": "Title in here",
-			"subtitle": "Subtitle can go here",
-			"url": "/blog/1"
+		"The Importance Of Education": {
+			"title": "The Importance Of Education",
+			"subtitle": "Education Is More Important Than Most People Realize",
+			"url": "/blog/1",
+			"datePublished": "21 Mar 2016",
+			"category": "Education",
+			"keywords": "education, elearning, internet, humanity",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
 		},
 		"My first sample post": {
 			"title": "Title in here",
