@@ -3,7 +3,7 @@
 		"The Importance Of Education": {
 			"title": "The Importance Of Education",
 			"subtitle": "Education Is More Important Than Most People Realize",
-			"url": "/blog/1",
+			"url": "/blog/the-importance-of-education/",
 			"datePublished": "21 Mar 2016",
 			"category": "Education",
 			"keywords": "education, elearning, internet, humanity",
@@ -11,6 +11,79 @@
 				"twitterUrl": "https://twitter.com/KalobTaulien",
 				"name": "Kalob Taulien"
 			}
+		},
+		"Why You Should Charge Your Customers": {
+			"title": "Why You Should Charge Your Customers",
+			"subtitle": "And Why a Free Service Isn't Always the Best Idea",
+			"url": "/blog/why-you-should-charge-your-customers/",
+			"datePublished": "29 Jun 2015",
+			"category": "Entrepreneurship",
+			"keywords": "entrepreneurship, customers, charging, money",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
+		},
+		"Lessons Learned From Startups": {
+			"title": "Lessons Learned From Startups",
+			"subtitle": "What I've Learned From At a New Startup And What the Founders Have Taught Me.",
+			"url": "/blog/lessons-learned-from-startups/",
+			"datePublished": "15 May 2015",
+			"category": "Business",
+			"keywords": "business, partnership, founders, learning lessons",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
+		},
+		"Adapting to New Roles": {
+			"title": "Adapting to New Roles",
+			"subtitle": "Mistakes And Adaptation",
+			"url": "/blog/adapting-to-new-roles/",
+			"datePublished": "10 May 2015",
+			"category": "Entrepreneurship",
+			"keywords": "",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
+		},
+		"Multilingual Characters In PHP And MySQL": {
+			"title": "Multilingual Characters In PHP And MySQL",
+			"subtitle": "How to Store And Retrieve Foreign Letters.",
+			"url": "/blog/multilingual-characters-in-php-and-mysql/",
+			"datePublished": "17 Apr 2015",
+			"category": "PHP",
+			"keywords": "php, multilang, mysql, characters",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
+		},
+		"Can't Stop Apache Process": {
+			"title": "Can't Stop Apache Process",
+			"subtitle": "Restarting Web Server Apache2 [fail]. Please Review the Situation By Hand.",
+			"url": "/blog/cant-stop-apache-process/",
+			"datePublished": "16 Apr 2015",
+			"category": "Ubuntu",
+			"keywords": "ubuntu, apache, processes, stop",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
+		},
+		"Learning The Hard Way": {
+			"title": "Learning The Hard Way",
+			"subtitle": "It's the Struggle That Makes You Great.",
+			"url": "/blog/learning-the-hard-way/",
+			"datePublished": "25 Feb 2015",
+			"category": "Entrepreneurship",
+			"keywords": "entrepreneurship, learning, lessons, moving forward",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
 		}
+
   	}
 }
