@@ -1,22 +1,21 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<base href="" />
 		<meta http-equiv="Content-type" value="text/html; charset=UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>Kalob Taulien</title>
+		<title>{title}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta http-equiv="content-language" content="en_US">
-		<link rel="icon" type="image/png" href="favicon.png" />
+		<link rel="icon" type="image/png" href="../favicon.png" />
 		<meta property="twitter:account_id" content="420308202" />
-		<meta name="description" content="Kalob Taulien" />
-		<meta name="keywords" content="Kalob Taulien, web development, business, startup, entrepreneur, code, blog" />
+		<meta name="description" content="{subtitle}" />
+		<meta name="keywords" content="{keywords}" />
 		<meta name="robots" content="index,follow" />
 		<link rel="author" type="text/plain" href="/humans.txt" />
 		<link rel="stylesheet" rel="preload" as="style" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<script src="https://use.fontawesome.com/a8e0b6c83e.js"></script>
-		<link rel="stylesheet" rel="preload" as="style" href="css/main.css" />
+		<link rel="stylesheet" rel="preload" as="style" href="../css/main.css" />
 	</head>
 
     <body>
@@ -80,81 +79,51 @@
 
 				<div class='col-sm-9' id='page'>
 
-					<h1 class='title'>Welcome</h1>
+					<div class="row section-block-a blog" itemscope itemtype="http://schema.org/Article">
+						<div class="col-sm-12">
 
-					<p>
-						Welcome to my website. KalobTaulien.com serves many purposes and acts beyond a simple portfolio. Here is where you can find several blogs posts I've made, companies I've started and projects I'm working on.
-					</p>
+							<h1 class='title'>
+								<span itemprop="headline">{blog post}</span>
+							</h1>
 
+							<h3 itemprop="alternativeHeadline">{subtitle}</h3>
 
-					<div class='row clearfix'>
-						<div class='col-sm-4 interest-column'>
-							<div class='column-title'>
-								Blog Posts
-							</div>
-
-
-							<ul class='link-list' id='blog-post-list'>
-								<li>
-									<a href='#' disabled='disabled' class='disabled' style='opacity:0.5;'><em>Loading...</em></a>
-								</li>
-							</ul>
-						</div>
-
-
-						<div class='col-sm-4 interest-column'>
-							<div class='column-title'>
-								Education
-							</div>
-
-
-							<ul class='link-list'>
-								<li>
-									<a href='https://arkmont.com/'>Arkmont.com</a>
-								</li>
-
-
-								<li>
-									<a href="https://www.youtube.com/playlist?list=PLNCzLFEENi67cM1-yVS4q8vu41O7Ab74j">
-										The Original Complete Web Development Course (Free)
+							<h4>
+								<small>
+									<span itemprop="dateCreated">
+										<span itemprop="datePublished">
+											{dd mon yyyy}
+										</span>
+									</span> 
+									in 
+									<a href="javascript:void(0);" itemprop="about">
+										{category}
+									</a> 
+									| by 
+									<a href="{author twitter url}" itemprop="author">
+										{author name}
 									</a>
-								</li>
+								</small>
+							</h4>
 
 
-								<li>
-									<a href="https://arkmont.com/the-ultimate-html-developer-course/overview">
-										The Ultimate HTML Developer (Free)
-									</a>
-								</li>
-
-							</ul>
-						</div>
-
-
-						<div class='col-sm-4 interest-column'>
-							<div class='column-title'>
-								Startups
+							<div itemprop="articleBody">
+								<p>
+									{paragraph1}
+								</p>
+								<p>
+									{paragraph2}
+								</p>
 							</div>
 
-
-							<ul class='link-list'>
-								<li>
-									<a href="https://arkmont.com/">Arkmont.com - Education for anybody</a>
-								</li>
-
-
-								<li>
-									<a href="https://xcelleratortools.com/">Xcelleratortools.com - Amazon FBA Stock Management</a>
-								</li>
-
-
-								<li>
-									<a href="http://kalast.com/">Kalast.com - Small business support and marketing</a>
-								</li>
-
-							</ul>
+							<div>
+								<span class="b">Keywords</span>: 
+								<span itemprop="keywords">{keywords}</span>
+							</div>
 						</div>
 					</div>
+
+
 				</div>
 			</div>		
 		</div>
@@ -176,8 +145,8 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src='js/app.js' type='text/javascript'></script>
-		<script src='js/index.js' type='text/javascript'></script>
+		<script src='../js/app.js' type='text/javascript'></script>
+		<script src='../js/index.js' type='text/javascript'></script>
 
 
        
