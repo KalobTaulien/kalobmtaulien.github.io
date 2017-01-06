@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="" />
+		<meta http-equiv="Content-type" value="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Multilingual Characters In PHP And MySQL</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="content-language" content="en_US">
+		<link rel="icon" type="image/png" href="../favicon.png" />
+		<meta property="twitter:account_id" content="420308202" />
+		<meta name="description" content="How to Store And Retrieve Foreign Letters." />
+		<meta name="keywords" content="Php, Mysql, Caharacter Codes, Utf8" />
+		<meta name="robots" content="index,follow" />
+		<link rel="author" type="text/plain" href="/humans.txt" />
+		<link rel="stylesheet" rel="preload" as="style" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://use.fontawesome.com/a8e0b6c83e.js"></script>
+		<link rel="stylesheet" rel="preload" as="style" href="../css/main.css" />
+	</head>
+
+    <body>
+		<a name='top'></a>		
+
+		<div id='mobile-menu'>
+			
+		</div>
+
+		<nav class="navbar navbar-default" role="navigation">
+			<div class='row'>
+				<div class='col-sm-4 col-sm-offset-1 col-xs-7 cell brand'>
+					<a href='/'>
+						<h1>KALOB <span>TAULIEN</span></h1>
+					</a>
+				</div>
+				<div class='col-sm-6 col-xs-5  cell text-right' id='top-cta'>
+					<a href="#" class='btn btn--cta btn--subscribe'>
+						Subscribe
+					</a>
+					<a href='#' class='display display--none open-mobile-menu' id='menu-bars'><i class='fa fa-bars'></i></a>
+				</div>
+			</div>
+		</nav> 
+
+
+		<div id='body'>
+			<div class='container'>
+				<div class='col-sm-3 hidden-xs' id='left-column'>
+					
+					<div class='row'>
+						<div data-spy="affix" id='float-column'>
+			
+							<div id='top'>
+								<div id='header' class='display display--none'>
+									<h4 class='m0'>
+										<a href='#top'>KALOB <span>TAULIEN</span></a>
+									</h4>
+									
+									<a href='#top' class="fa fa-angle-up btn btn-default"></a>
+								</div>
+								<span class='category-title'>
+									<a href="/">Home</a>
+								</span>
+							</div>
+				
+							<div class='page-title'>
+								<a href="/">Kalob Taulien</a>		
+							</div>
+
+							<div class='related-links'>
+
+								<div id='related-links-title'>
+									Related Links
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class='col-sm-9' id='page'>
+
+					<div class="row section-block-a blog" itemscope itemtype="http://schema.org/Article">
+						<div class="col-sm-12">
+
+							<h1 class='title'>
+								<span itemprop="headline">Multilingual Characters In PHP And MySQL</span>
+							</h1>
+
+							<h3 itemprop="alternativeHeadline">How to Store And Retrieve Foreign Letters.</h3>
+
+							<h4>
+								<small>
+									<span itemprop="dateCreated">
+										<span itemprop="datePublished">
+											17 Apr 2015
+										</span>
+									</span> 
+									in 
+									<a href="javascript:void(0);" itemprop="about">
+										PHP
+									</a> 
+									| by 
+									<a href="http://twitter.com/KalobTaulien/" itemprop="author">
+										Kalob Taulien
+									</a>
+								</small>
+							</h4>
+
+
+							<div itemprop="articleBody">
+	<p>Here's a quick guide on how to use multilingual and foreign characters in MySQL and access them in PHP.&nbsp;</p>
+
+
+	<p>First and foremost, if you're using the MySQL() PHP function - start using MySQLi() or PDO() (I prefer PDO so this article is going tackle this problem
+	with a bit of PDO)</p>
+
+
+	<p>First, you'll want to set a few settings
+	in your PHP, preferably before everything else you're about to write. Possibly at the top of your config file.&nbsp;</p>
+
+
+	<p><span style="font-weight: bold;">Inside your PHP file add:</span>
+	</p>
+
+	<pre>&lt;?php          
+&nbsp;&nbsp;&nbsp;&nbsp;mb_internal_encoding('UTF-8');  // Tell PHP to use UTF-8 inside PHP
+&nbsp;&nbsp;&nbsp;&nbsp;mb_http_output('UTF-8');    // Tell PHP to push UTF-8 through the buffer to the browsers
+&nbsp;&nbsp;&nbsp;&nbsp;header('Content-Type: text/html; charset=UTF-8'); // Tell the browser we're using the UTF-8 character set
+?&gt;</pre><span style="font-weight: bold;">Inside you're HTML &lt;head&gt; add:</span>
+
+	<p>
+	</p>
+
+	<pre>&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;</pre>
+
+	<p><span style="font-weight: bold;">To connect to your MySQL database use one of the following:<br>
+	A) PDO:</span>
+	</p>
+
+	<pre>&lt;?php
+&nbsp;&nbsp;&nbsp;&nbsp;$db = new \PDO( 'mysql:charset=utf8mb4;mysql:host=&lt;localhost&gt;;dbname=&lt;db_name&gt;', '&lt;user_name&gt;', '&lt;pass_phrase&gt;' );
+?&gt;</pre>
+
+	<p><span style="font-weight: bold;">B) MYSQLI</span>
+	</p>
+
+	<pre><span style="line-height: 1.42857143;">&lt;?php
+</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: 1.42857143;">$mysqli-&gt;set_charset('utf8mb4'); // OOP Method
+</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: 1.42857143;">mysqli_set_charset($link, 'utf8mb4'); &nbsp;// Procedural Method</span><span class=
+"Apple-tab-span" style="line-height: 1.42857143; white-space: pre;">   </span>
+?&gt;</pre>
+
+	<p>
+	</p>
+
+
+	<div>
+		One last thing. If you run all of this and find that your MySQL database is not storing the correct characters, double check that your tables' <span style=
+		"font-weight: bold;">collation</span>&nbsp;is set to <span style="font-weight: bold;">utf8mb4_unicode_ci</span>&nbsp;(that means UTF-8 and is case
+		insensitive).
+	</div>
+
+
+	<div>
+		<br>
+	</div>
+
+
+	<div>
+		<span style="line-height: 1.42857143;">Now when you INSERT or SELECT from your MySQL Database, you'll see all the proper characters.&nbsp;</span>
+	</div>
+
+
+	<div>
+		<span style="line-height: 1.42857143;"><br></span>
+	</div>
+
+
+	<div>
+		<span style="line-height: 1.42857143;">Essentially what you've told your application is:</span>
+	</div>
+
+
+	<ol>
+		<li>Use UTF-8 Encoding inside the server-side scripting</li>
+
+
+		<li>Use UTF-8 Encoding inside your MySQL application.&nbsp;</li>
+
+
+		<li>Tell the browser to force UTF-8 encoding via HTML and PHP</li>
+	</ol>
+							</div>
+
+							<div>
+								<span class="b">Keywords</span>: 
+								<span itemprop="keywords">Php, Mysql, Caharacter Codes, Utf8</span>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>		
+		</div>
+
+			
+		<footer>
+			<div class='container'>
+				<div class='row links'>
+					<div class='col-xs-12 top' id='footer-links'>
+						
+						<a class='btn btn--cta btn--subscribe' href="#" style='padding:10px;' target="_blank">
+							Subscribe
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src='../js/app.js' type='text/javascript'></script>
+
+
+       
+    </body>
+</html>
