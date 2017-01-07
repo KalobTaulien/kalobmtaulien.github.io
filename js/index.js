@@ -1,7 +1,7 @@
 // Actions to take ONLY on the index.html page. 
 $(document).ready(function() {
-	
 
+    
 	// Get the newest version of the menu 
 	$.ajax({
         url: "https://kalobtaulien.com/template/blog-posts.json",
