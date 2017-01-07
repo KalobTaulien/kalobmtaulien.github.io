@@ -1,5 +1,17 @@
 {
   	"posts": {
+		"How to break into the development industry.": {
+			"title": "How to break into the development industry.",
+			"subtitle": "In this article I'm going to share with you some ways you can break into the web or app development industries.",
+			"url": "https://medium.com/@kalobtaulien/how-to-break-into-the-web-development-industry-4dd32e7a19a6",
+			"datePublished": "14 Oct 2016",
+			"category": "Education",
+			"keywords": "coding, web development, employment",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
+		},
 		"What are employers looking for in a developer?": {
 			"title": "What are employers looking for in a developer?",
 			"subtitle": "I went to a dozen interviews for web development jobs, and this is what I learned.",
