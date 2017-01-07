@@ -38,7 +38,7 @@ $(document).ready(function() {
 
 	// Get the newest version of the footer links  
 	$.ajax({
-        url: "http://kalobtaulien.com/template/footer-links.json",
+        url: "https://kalobtaulien.com/template/footer-links.json",
         type: "GET",
         crossDomain: true,
         data: {},
