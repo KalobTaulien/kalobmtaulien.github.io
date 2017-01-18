@@ -1,5 +1,17 @@
 {
   	"posts": {
+		"Why I went back to a day job.": {
+			"title": "Why I went back to a day job.",
+			"subtitle": "Why I went from a full time entrepreneur to a full time employee.",
+			"url": "/blog/why-i-went-back-to-a-day-job.html",
+			"datePublished": "14 Oct 2016",
+			"category": "Entrepreneurship",
+			"keywords": "entrepreneurship, employment, web development",
+			"author": {
+				"twitterUrl": "https://twitter.com/KalobTaulien",
+				"name": "Kalob Taulien"
+			}
+		},
 		"How to break into the development industry.": {
 			"title": "How to break into the development industry.",
 			"subtitle": "In this article I'm going to share with you some ways you can break into the web or app development industries.",
