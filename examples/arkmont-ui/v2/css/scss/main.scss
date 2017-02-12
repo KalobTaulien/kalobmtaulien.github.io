@@ -1,0 +1,17 @@
+$background-color: #0e0f11;
+$arkmont-red: #8c1515;
+
+// Animations.
+@import 'imports/animations';
+// Scrollbar stylings.
+@import 'imports/scrollbar';
+// Base styling
+@import 'imports/base';
+// Page navigation
+@import 'imports/nav';
+// Add the tiles
+@import 'imports/tiles';
+// Video JS styling 
+@import 'imports/videojs';
+// Any additional helpers; usually one-offs for styling.
+@import 'imports/helpers';
